@@ -3,5 +3,5 @@ Combined Plot:
     Add interactivity to box plot to make bins more visible
     Suppress error messages?
         -If possible
-    Add line plot of multiple particles to be able to compare particle compositions in a bin
+    Add parallel line plots of multiple particles to be able to compare particle compositions in a bin
     
