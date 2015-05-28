@@ -1,0 +1,12 @@
+Box Plot:
+    Added %matplotlib inline to display graphs in the iPython notebook
+    Changed the code to output a graph to the notebook instead of saving it to a file
+    Increased the size of width_in to make the graph larger and easier to see
+    Added interaction for the time so that graphs can be plotted with a slider
+    
+Particle Sources
+    Added %matplotlib inline to display graphs in the iPython notebook
+    Changed the code to output a graph to the notebook instead of saving it to a file
+    Increased the size of width_in to make the graph larger and easier to see
+    Added interactivity for parameters
+    Suppress data outputs for easier replotting
