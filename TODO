@@ -1,7 +1,0 @@
-Combined Plot:
-    Add in drop down menus to keep plots from re-rendering each time a slider is moved
-    Add interactivity to box plot to make bins more visible
-    Suppress error messages?
-        -If possible
-    Add parallel line plots of multiple particles to be able to compare particle compositions in a bin
-    
