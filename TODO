@@ -1,9 +1,10 @@
 Combined Plot:
     Add in drop down menus to keep plots from re-rendering each time a slider is moved
         -Update to Python3
-        -Do a small test of interact_manual to see if it ever works
     Add interactivity to box plot to make bins more visible
         -Use mpld3 to get interactivity
             -Display of bins
             -Inter-graph interactions
     Add parallel line plots of multiple particles to be able to compare particle compositions in a bin
+    Combined supersat and BCmassfraction plots
+        -Scatter plots (https://mpld3.github.io/examples/linked_brush.html)

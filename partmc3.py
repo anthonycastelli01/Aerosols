@@ -186,7 +186,7 @@ class aero_data_t(object):
                 raise (Exception("aero_species variable not found in NetCDF file"))
             if "names" not in dir(ncf.variables["aero_species"]):
                 raise (Exception("aero_species variable does not have 'names' attribute"))
-            self.names = ncf.variables["aero_species".encode("UTF-8")].names.split(",")
+            #self.names = ncf.variables["aero_species"].names.split(",")
 
             if "aero_source" not in ncf.variables.keys():
                 raise (Exception("aero_source variable not found in NetCDF file"))
