@@ -8,6 +8,10 @@ Combined Plot:
     Add parallel line plots of multiple particles to be able to compare particle compositions in a bin
     Combined supersat and BCmassfraction plots
         -Scatter plots (https://mpld3.github.io/examples/linked_brush.html)
-        
-Python3:
-    Supersaturation needs new partmc_new
+    
+Writing:
+    - What didn't work
+    - Handoff notes for working plots
+
+For Thursday
+    - Format line plots
