@@ -1,6 +1,6 @@
 # Aerosols
 
-These work best as an iPython notebook at the moment, as they don't output any of the plots as files.
+These work best as iPython notebooks at the moment, as they don't output any of the plots as files.
 
 <ul>
     <li><b>Box Plot</b> generates the plot of the binned data based on a time slider.</li>
