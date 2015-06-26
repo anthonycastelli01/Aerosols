@@ -2,8 +2,42 @@
 
 These work best as iPython notebooks at the moment, as they don't output any of the plots as files.
 
-<ul>
-    <li><b>Box Plot</b> generates the plot of the binned data based on a time slider.</li>
-    <li><b>Particle Sources</b> takes a random aerosol particle in the selected bin and generates a plot of its composition.</li>
-    <li><b>Combined Plotting</b> combines Box Plot and Particle Sources into one page. Soon, the Box Plot will have interactive functions implemented to make finding populated bins easier.</li>
-</ul>
+##Box Plot
+2D (vertical) plot of aerosols with a slider and run button for time
+*Worked:
+*Didn’t work:
+
+##Combined Plotting - Line Graphs
+Combined Box Plot and Particle Sources into one script that generates both plots at once. Three sliders, consisting of x-bin, y-bin, and time sliders, change the parameters and a run button rerenders the plots. Particle sources has been changed to be line graphs of all the particles instead of bar charts of only one.
+*Worked:
+*Didn’t work:
+
+##Combined Plotting
+Combined Box Plot and Particle Sources into one script that generates both plots at once. Three sliders, consisting of x-bin, y-bin, and time sliders, change the parameters and a run button rerenders the plots.
+*Worked:
+*Didn’t work:
+
+##Dual Plot
+Example code of interactivity desired in the future. This MPLD3 script shows circles on bottom half of the plot and a changing sine wave plotted on top that changes period and amplitude based on which circle is hovered over. In the future this would ideally be added to the Combined Plotting (- Line Graphs?) so that the user could hover over the bins and the particle plots would change.
+*Worked:
+*Didn’t work:
+
+##Dual Scatter
+Scatter plots of several variables against each other, never made it past the initial plots because the interactivity didn’t work out.
+*Worked:
+*Didn’t work:
+
+##Particle Sources
+Bar charts of both sources and composition of aerosol particles with sliders for x-bin, y-bin, and time variables, as well as a button to run the script with new variables each time.
+*Worked:
+*Didn’t work:
+
+##Scatterplot Data
+Scatterplot of BC vs OC with a slider for time and a run button to run the script with new variables after changes are made.
+*Worked:
+*Didn’t work:
+
+##Supersaturation Plot
+Intended to be a plot of supersaturation values from a separate set of data that Nicole was using, but when we updated to python3 the partmc file needed to be updated and I never got back to it.
+*Worked:
+*Didn’t work:
