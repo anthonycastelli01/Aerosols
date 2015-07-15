@@ -5,11 +5,11 @@ These are all iPython notebooks, and will only work inside of that framework.
 ##Box Plot
 2D (vertical) plot of aerosols with a slider and run button for time
 * Worked:
-..* Manual interaction with widgets and both the interact and interact_manual functions.
-..* Modifying the original code to generate inline plots instead of separate files.
-....* Used '%matplotlib inline' and modified code
+  * Manual interaction with widgets and both the interact and interact_manual functions.
+  * Modifying the original code to generate inline plots instead of separate files.
+    * Used '%matplotlib inline' and modified code
 * Didn’t work:
-..* Hover interactions - Didn't have time to implement on this plot, as we moved on to a combined plot script
+  * Hover interactions - Didn't have time to implement on this plot, as we moved on to a combined plot script
 
 ##Combined Plotting - Line Graphs
 Combined Box Plot and Particle Sources into one script that generates both plots at once. Three sliders, consisting of x-bin, y-bin, and time sliders, change the parameters and a run button rerenders the plots. Particle sources has been changed to be line graphs of all the particles instead of bar charts of only one.
